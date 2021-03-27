@@ -1,19 +1,19 @@
 # Facebook Questions
 
-###1. Longest Palindromic Substring
+### 1. Longest Palindromic Substring
    
    **LeetCode No: 5**
    
    Given a string `s`, return longest palintromic substring in `s`.
 
-###2. Subarray Sum Equals K
+### 2. Subarray Sum Equals K
    
    **LeetCode No: 560**
 
    Given an array of integers `nums` and integer `k`, return *the total number of
    continuous subarrays whos sum equals to `k`.
 
-###3. Random Pick with Weight
+### 3. Random Pick with Weight
 
    **LeetCode No: 528**
 
@@ -24,7 +24,7 @@ We need to call the function pickIndex() which randomly returns an integer in th
 More formally, the probability of picking index i is w[i] / sum(w).
 
 
-###4. Restore IP Addresses
+### 4. Restore IP Addresses
    
    ** LeetCode No: 93**
     
