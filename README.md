@@ -30,4 +30,32 @@ More formally, the probability of picking index i is w[i] / sum(w).
     
    Given a string s containing only digits, return all possible valid IP addresses that can be obtained from s. You can return them in any order.
 
-A valid IP address consists of exactly four integers, each integer is between 0 and 255, separated by single dots and cannot have leading zeros. For example, "0.1.2.201" and "192.168.1.1" are valid IP addresses and "0.011.255.245", "192.168.1.312" and "192.168@1.1" are invalid IP addresses. 
+A valid IP address consists of exactly four integers, each integer is between 0 and 255, separated by single dots and cannot have leading zeros. For example, "0.1.2.201" and "192.168.1.1" are valid IP addresses and "0.011.255.245", "192.168.1.312" and "192.168@1.1" are invalid IP addresses.
+
+
+### 5. Maximum Swap
+
+**LeetCode No: 670**
+
+Given a non-negative integer, you could swap two digits at most once to get the maximum valued number. Return the maximum valued number you could get.
+
+
+### 6. Accounts Merge
+
+**LeetCode No: 721**
+
+Given a list of accounts where each element accounts[i] is a list of strings, where the first element accounts[i][0] is a name, and the rest of the elements are **emails** representing emails of the account.
+
+Now, we would like to merge these accounts. Two accounts definitely belong to the same person if there is some common email to both accounts. Note that even if two accounts have the same name, they may belong to different people as people could have the same name. A person can have any number of accounts initially, but all of their accounts definitely have the same name.
+
+After merging the accounts, return the accounts in the following format: the first element of each account is the name, and the rest of the elements are emails **in sorted order**. The accounts themselves can be returned in **any order**. 
+
+
+### 7. Best Time to Buy and Sell Stock
+**LeetCode No: 121**
+
+You are given an array prices where **prices[i]** is the **price** of a given stock on the **ith** day.
+
+You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
+
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.
