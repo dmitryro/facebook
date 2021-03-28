@@ -148,7 +148,7 @@ Output: []
 
 ### 11. Pow(x, n)
 
-** LeetCode No: 50**
+**LeetCode No: 50**
 
 Implement pow(x, n), which calculates `x` raised to the power `n` (i.e., `x^n`).
 
