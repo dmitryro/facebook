@@ -374,3 +374,38 @@ Output: 3
 * `1 <= m, n <= 300`
 * `grid[i][j] is '0' or '1'`
 
+
+### 17. Valid Word Abbreviation
+
+**LeetCode No: 408**
+
+Given a non-empty stringsand an abbreviationabbr, return whether the string matches with the given abbreviation.
+
+A string such as"word"contains only the following valid abbreviations:
+
+```["word", "1ord", "w1rd", "wo1d", "wor1", "2rd", "w2d", "wo2", "1o1d", "1or1", "w1r1", "1o2", "2r1", "3d", "w3", "4"]```
+
+**Notice** that **only the above abbreviations** are valid abbreviations of the string"word". Any other string is not a valid abbreviation of"word".
+
+
+**Note**
+Assumescontains only lowercase letters andabbrcontains only lowercase letters and digits.
+
+**Example 1**
+```
+Given 
+s = "internationalization", 
+abbr = "i12iz4n":
+
+Return true.
+```
+
+**Example 2**
+```
+Given 
+s = "apple", 
+abbr = "a2e":
+
+Return false.
+```
+
